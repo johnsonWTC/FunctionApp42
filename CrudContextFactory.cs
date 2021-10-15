@@ -1,12 +1,10 @@
-﻿
-using FunctionApp41;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FunctionApp41
+namespace FunctionApp42
 {
     public class CrudContextFactory : IDesignTimeDbContextFactory<UserContext>
     {
